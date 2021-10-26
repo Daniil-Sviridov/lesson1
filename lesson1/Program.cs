@@ -12,7 +12,8 @@ namespace lesson1
             str = Console.ReadLine();
             Console.WriteLine($"Hello {str}! Сегодня {myDateTime.ToString("dd/MM/yyyy")} г.");
 
-            
+
         }
     }
 }
+
