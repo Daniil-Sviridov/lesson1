@@ -6,7 +6,9 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string str;
+            str = Console.ReadLine();
+            Console.WriteLine($"Hello {str}!");
         }
     }
 }
