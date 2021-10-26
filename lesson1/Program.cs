@@ -8,6 +8,8 @@ namespace lesson1
         {
             DateTime myDateTime = DateTime.Today;
             string str;
+
+            //Напишем комментарий
             Console.WriteLine("Ваше имя? :");
             str = Console.ReadLine();
             Console.WriteLine($"Hello {str}! Сегодня {myDateTime.ToString("dd/MM/yyyy")} г.");
