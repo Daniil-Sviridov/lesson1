@@ -6,7 +6,13 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DateTime myDateTime = DateTime.Today;
+            string str;
+            Console.WriteLine("Ваше имя? :");
+            str = Console.ReadLine();
+            Console.WriteLine($"Hello {str}! Сегодня {myDateTime.ToString("dd/MM/yyyy")} г.");
+
+            
         }
     }
 }
